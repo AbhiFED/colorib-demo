@@ -7,6 +7,7 @@ function App() {
     <div>
       <Display/>
     //this is comment for demo
+    //console.log("hello")
     </div>
   );
 }
