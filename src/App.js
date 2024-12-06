@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Display/>
+    //this is comment for demo
     </div>
   );
 }
