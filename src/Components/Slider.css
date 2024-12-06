@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /* Start and end at the original position */
+  }
+  25% {
+    transform: translateY(-10px); /* Small bounce upwards */
+  }
+  50% {
+    transform: translateY(-20px); /* Higher bounce */
+  }
+  75% {
+    transform: translateY(-10px); /* Small bounce again */
+  }
+}
+.bouncing-text {
+  animation: bounce 0.8s ease-in-out infinite ;
+}
+
+@keyframes slideFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-text {
+  animation: slideFromBottom 3.8s ease-in-out  infinite ;
+}
